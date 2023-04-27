@@ -1,0 +1,93 @@
+" ### NEWS ### "
+https://artixlinux.org/feed.php "tech"
+https://www.archlinux.org/feeds/news/ "tech"
+https://feeds.feedburner.com/TheHackersNews
+
+" ### BLOG ### "
+https://bugswriter.com/blog/atom.xml "~bugswriter"
+https://landchad.net/rss.xml
+https://lindypress.net/rss
+https://lukesmith.xyz/rss.xml
+https://andrehessling.de/feed/
+https://blog.thechases.com/rss.xml
+https://www.embedded.com/feed/
+
+" ### MAGAZINE ### "
+https://www.thewire.co.uk/home/rss
+https://thequietus.com/feed
+https://www.gorillavsbear.net/feed
+
+" ### STACKs ### "
+https://stackoverflow.com/feeds/tag?tagnames=stm32+or+st+or+microcontroller&sort=newest
+https://electronics.stackexchange.com/feeds/tag?tagnames=stm32+or+st+or+microcontroller+or+stm8&sort=newest
+
+" ### YOUTUBE ### "
+" |__ CS "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA "yt" "~TJ DeVries (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "yt" "~Low Level Learning"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "yt" "~Tsoding Daily"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwd5VFu4KoJNjkWJZMFJGHQ "yt" "~Jacob Sorber"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w "yt" "~LiveOverflow"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw "yt" "~stacksmashing"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "yt" "~Computerphile"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCb8bmN_7d3p-Xt5GqYT2KnA "yt" "~Barry Brown"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrUL8K81R4VBzm-KOYwrcxQ "yt" "~Engineer Man"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuWLGQB4WRBKvW1C26zA2og "yt" "~Daedalus Community"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvn4o822zawXQR5vl32tnwA "yt" "~TechVedas .learn"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCK1AYe1AVziqPRZyrzbwH2g "yt" "~Andrei Litvin"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgKePkWtPuF36bJy0n2cEMQ "yt" "~Jadi"
+" |__ Embedded "
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7QA0wx1m_aLyctDusU4X7g "yt" "~Phil Koopman"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4KXPjmKwPutGjwFZsEXB5g "yt" "~Jeremy Blum"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMGXFEew8I6gzjg3tWen4Gw "yt" "~Quantum Leaps, LLC"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVryWqJ4cSlbTSETBHpBUWw "yt" "~Phil’s Lab"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCY0sQ9hpSR6yZobt1qOv6DA "yt" "~Embedded Systems (book tutorials)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCa1REBV9hyrzGp2mjJCagBg "yt" "~Fastbit Embedded Brain Academy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjPRuknkFjqM6UxxTbCQJ5Q "yt" "~Web learning"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkJm6PVFvuFoIzQ6cWYELCw "yt" "~Matej Blagšič"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuigr_BEzX1g3Qvwq5QjPXg "yt" "~EmbeddedGeek"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvss9daazvQMpBHelXFOaBQ "yt" "~JaJakub"
+" |__ Linux "
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "yt" "~Luke Smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCf93fPKwotph47H3_KDcRyg "yt" "~Kris Occhipinti"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX_WM2O-X96URC5n66G-hvw "yt" "~EF - Linux Made Simple"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCngn7SVujlvskHRvRKc1cTw "yt" "~BugsWriter"
+" |__ Crypto "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg "yt" "~Benjamin Cowen"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSmFNmDIN1cwyAD8xGf-tBQ "yt" "~NonStopCrypto"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTSU6hkLGGoZMGfU85u7gSQ "yt" "~CryptoVizArt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZHQvRWLeQq9FfSOrAwOV6g "yt" "~Channel Hitch"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaLFuLgUOUr-T2uNV1UWvZA "yt" "~Persian Altcoiner "
+https://www.youtube.com/feeds/videos.xml?channel_id=UChJDoitU8BCdhxeAeFOQIHg "yt" "~Ziya Sadr"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnhdZlwVd6ocXGhdSyV9Axg "yt" "~CoinMarketCap"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqK_GSMbpiV8spgD3ZGloSw "yt" "~Coin Bureau"
+" |__ Electronics "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBkOVp1Cqz4MR0LYR8vKpZg "yt" "~ALL ABOUT ELECTRONICS"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0-OtVpF0wOKEqT2Z1HEtA "yt" "~ElectroBOOM"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJQkHVpk3A8bgDmPlJlOJOA "yt" "~Robert Feranec"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNd_fNspAczm8UoE2ay7K1Q "yt" "~ForceTronics"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "yt" "~Ben Eater"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCU9SoQxJewrWb_3GxeteQPA "yt" "~Mr Carlson's Lab"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClKevSwDIU8NTyF2DAK0G0Q "yt" "~CircuitBread"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCosnWgi3eorc1klEQ8pIgJQ "yt" "~Afrotechmods"
+" |__ Music "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnkp4xDOwqqJD7sSM3xdUiQ "yt" "~Adam Neely"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsqK63mE3ijJQiPQlFIPMtw "yt" "~Anatomy of a Track"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw "yt" "~theneedledrop"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRYhCg0DHloE9gn-PAiAYNg "yt" "~deep cuts"
+" |__ Documentry "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA "yt" "~Jared Owen"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9PIn6-XuRKZ5HmYeu46AIw "yt" "~Barely Sociable"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg "yt" "~Nerdwriter1"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP5tjEmvPItGyLhmjdwP7Ww "yt" "~RealLifeLore"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q "yt" "~LEMMiNO"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoOjH8D2XAgjzQlneM2W0EQ "yt" "~Jake Tran"
+" |__ Science & Engineering "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR1IuLEqb6UEA_zQ81kwXfg "yt" "~Real Engineering"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX6b17PVsYBQ0ip5gyeme-Q "yt" "~CrashCourse"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCk0fGHsCEzGig-rSzkfCjMw "yt" "~The Engineering Mindset"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "yt" "~Numberphile"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "yt" "~Kurzgesagt – In a Nutshell"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUKKQwBQZczpYzETkZNxi-w "yt" "~RealPars"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw "yt" "~DIY Perks"
+

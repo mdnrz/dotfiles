@@ -1,0 +1,6 @@
+CompileFlags: {
+  Add: [
+      --sysroot=/usr/arm-none-eabi ,
+      -mfloat-abi=soft,
+  ]
+}

@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+zsh/.config/zsh/.zcompdump
+nvim/.config/nvim/plugin/packer_compiled.lua
+

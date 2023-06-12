@@ -98,3 +98,6 @@ map("n", "<leader>mf22", "<cmd>wa<cr><cmd>! mf22<cr>", opts)
 
 -- doc compiler
 map("n", "<leader>cp", ":wa<cr><cmd>! compiler %<cr><cr>", opts)
+
+-- tmux sessionizer
+map("n", "<C-f>", ":!tmux neww sessionizer<cr>", opts)

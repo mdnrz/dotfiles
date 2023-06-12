@@ -2,9 +2,6 @@ cmap ;cac /home/mehdi/.cache
 cmap ;cf /home/mehdi/.config
 cmap ;D /home/mehdi/dl
 cmap ;d /home/mehdi/dox
-cmap ;wr /home/mehdi/wrk
-cmap ;rp /home/mehdi/gits
-cmap ;cod /home/mehdi/wrk/code
 cmap ;dt /home/mehdi/.local/share
 cmap ;rr /home/mehdi/.local/src
 cmap ;h /home/mehdi

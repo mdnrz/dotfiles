@@ -53,4 +53,7 @@ dkms.conf
 
 zsh/.config/zsh/.zcompdump
 nvim/.config/nvim/plugin/packer_compiled.lua
-
+suckless/.local/src/st/st
+suckless/.local/src/dwm/dwm
+suckless/.local/src/dmenu/dmenu
+tmux/.config/tmux/plugins

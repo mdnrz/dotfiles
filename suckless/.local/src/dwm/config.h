@@ -36,12 +36,14 @@ typedef struct {
 const char *spcmd1[] = {TERMINAL, "-n", "spterm", "-g", "120x34", NULL };
 const char *spcmd2[] = {TERMINAL, "-n", "spcalc", "-f", "monospace:size=16", "-g", "50x20", "-e", "bc", "-lq", NULL };
 const char *spcmd3[] = {TERMINAL, "-n", "spnote", "-g", "120x34", "-e", "nvim", "-c VimwikiMakeDiaryNote", NULL };
+const char *spcmd4[] = {TERMINAL, "-n", "sptodo", "-g", "120x34", "-e", "nvim", "/home/mehdi/todo.md", NULL };
 
 static Sp scratchpads[] = {
 	/* name          cmd  */
 	{"spterm",      spcmd1},
 	{"spcalc",      spcmd2},
     {"spnote",      spcmd3},
+    {"sptodo",      spcmd4},
 };
 
 /* tagging */
@@ -61,6 +63,7 @@ static const Rule rules[] = {
 	{ TERMCLASS,      "spterm",    NULL,       	    SPTAG(0),     1,           1,         0,        -1 },
 	{ TERMCLASS,      "spcalc",    NULL,       	    SPTAG(1),     1,           1,         0,        -1 },
 	{ TERMCLASS,      "spnote",    NULL,       	    SPTAG(2),     1,           1,         0,        -1 },
+	{ TERMCLASS,      "sptodo",    NULL,       	    SPTAG(3),     1,           1,         0,        -1 },
 };
 
 /* layout(s) */
@@ -310,6 +313,10 @@ static const Key keys[] = {
 	/* { MODKEY|Mod4Mask,              XK_o,      incrohgaps,     {.i = -1 } }, */
 	/* { MODKEY|ShiftMask,             XK_y,      incrovgaps,     {.i = +1 } }, */
 	/* { MODKEY|ShiftMask,             XK_o,      incrovgaps,     {.i = -1 } }, */
+
+
+   	{ MODKEY|ControlMask,		XK_t,		togglescratch,		{.ui = 3} },
+
 
 };
 

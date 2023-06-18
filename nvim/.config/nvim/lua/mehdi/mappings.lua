@@ -100,4 +100,5 @@ map("n", "<leader>mf22", "<cmd>wa<cr><cmd>! mf22<cr>", opts)
 map("n", "<leader>cp", ":wa<cr><cmd>! compiler %<cr><cr>", opts)
 
 -- tmux sessionizer
-map("n", "<C-f>", ":!tmux neww sessionizer<cr>", opts)
+map("n", "<C-f>", ":sil !tmux neww sessionizer<cr>", opts)
+map("n", "<C-s>", ":sil !tmux split-window -h -l 85 bash -c cht.sh<cr>", opts)

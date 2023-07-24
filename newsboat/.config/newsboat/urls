@@ -6,7 +6,6 @@ https://feeds.feedburner.com/TheHackersNews
 " ### BLOG ### "
 https://bugswriter.com/blog/atom.xml "~bugswriter"
 https://landchad.net/rss.xml
-https://lindypress.net/rss
 https://lukesmith.xyz/rss.xml
 https://andrehessling.de/feed/
 https://blog.thechases.com/rss.xml
@@ -32,7 +31,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw "yt" "~stacksmashing"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "yt" "~Computerphile"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCb8bmN_7d3p-Xt5GqYT2KnA "yt" "~Barry Brown"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCrUL8K81R4VBzm-KOYwrcxQ "yt" "~Engineer Man"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCuWLGQB4WRBKvW1C26zA2og "yt" "~Daedalus Community"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCvn4o822zawXQR5vl32tnwA "yt" "~TechVedas .learn"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCK1AYe1AVziqPRZyrzbwH2g "yt" "~Andrei Litvin"
@@ -43,11 +41,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC4KXPjmKwPutGjwFZsEXB5g "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCMGXFEew8I6gzjg3tWen4Gw "yt" "~Quantum Leaps, LLC"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVryWqJ4cSlbTSETBHpBUWw "yt" "~Phil’s Lab"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCY0sQ9hpSR6yZobt1qOv6DA "yt" "~Embedded Systems (book tutorials)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCa1REBV9hyrzGp2mjJCagBg "yt" "~Fastbit Embedded Brain Academy"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCjPRuknkFjqM6UxxTbCQJ5Q "yt" "~Web learning"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkJm6PVFvuFoIzQ6cWYELCw "yt" "~Matej Blagšič"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCuigr_BEzX1g3Qvwq5QjPXg "yt" "~EmbeddedGeek"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvss9daazvQMpBHelXFOaBQ "yt" "~JaJakub"
 " |__ Linux "
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "yt" "~Luke Smith"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCf93fPKwotph47H3_KDcRyg "yt" "~Kris Occhipinti"
@@ -55,13 +49,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCX_WM2O-X96URC5n66G-hvw "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCngn7SVujlvskHRvRKc1cTw "yt" "~BugsWriter"
 " |__ Crypto "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg "yt" "~Benjamin Cowen"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSmFNmDIN1cwyAD8xGf-tBQ "yt" "~NonStopCrypto"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTSU6hkLGGoZMGfU85u7gSQ "yt" "~CryptoVizArt"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCZHQvRWLeQq9FfSOrAwOV6g "yt" "~Channel Hitch"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaLFuLgUOUr-T2uNV1UWvZA "yt" "~Persian Altcoiner "
-https://www.youtube.com/feeds/videos.xml?channel_id=UChJDoitU8BCdhxeAeFOQIHg "yt" "~Ziya Sadr"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCnhdZlwVd6ocXGhdSyV9Axg "yt" "~CoinMarketCap"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCqK_GSMbpiV8spgD3ZGloSw "yt" "~Coin Bureau"
 " |__ Electronics "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCBkOVp1Cqz4MR0LYR8vKpZg "yt" "~ALL ABOUT ELECTRONICS"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0-OtVpF0wOKEqT2Z1HEtA "yt" "~ElectroBOOM"
@@ -78,11 +65,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRYhCg0DHloE9gn-PAiAYNg "yt" "~deep cuts"
 " |__ Documentry "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA "yt" "~Jared Owen"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9PIn6-XuRKZ5HmYeu46AIw "yt" "~Barely Sociable"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg "yt" "~Nerdwriter1"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCP5tjEmvPItGyLhmjdwP7Ww "yt" "~RealLifeLore"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q "yt" "~LEMMiNO"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoOjH8D2XAgjzQlneM2W0EQ "yt" "~Jake Tran"
 " |__ Science & Engineering "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "yt" "-3Blue1Brown"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCR1IuLEqb6UEA_zQ81kwXfg "yt" "~Real Engineering"

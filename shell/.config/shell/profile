@@ -6,7 +6,9 @@
 # to clean up.
 
 # Adds `~/.local/bin` to $PATH
-export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
+export PATH="$PATH:${$(find ~/.local/bin -type d ! -path '*.scr/*' ! -name '.scr' -printf %p:)%%:}"
+# Adds `~/x-tools/*/bin` to $PATH
+export PATH="$PATH:${$(find ~/x-tools -maxdepth 2 -type d -name 'bin' -printf %p:)%%:}"
 
 unsetopt PROMPT_SP
 

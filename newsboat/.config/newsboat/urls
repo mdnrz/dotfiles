@@ -1,6 +1,4 @@
 " ### NEWS ### "
-https://artixlinux.org/feed.php "tech"
-https://www.archlinux.org/feeds/news/ "tech"
 https://feeds.feedburner.com/TheHackersNews
 
 " ### BLOG ### "
@@ -11,11 +9,6 @@ https://andrehessling.de/feed/
 https://blog.thechases.com/rss.xml
 https://www.embedded.com/feed/
 https://interrupt.memfault.com/feed.xml
-
-" ### MAGAZINE ### "
-https://www.thewire.co.uk/home/rss
-https://thequietus.com/feed
-https://www.gorillavsbear.net/feed
 
 " ### STACKs ### "
 https://stackoverflow.com/feeds/tag?tagnames=stm32+or+st+or+microcontroller&sort=newest
@@ -35,6 +28,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCuWLGQB4WRBKvW1C26zA2og "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCvn4o822zawXQR5vl32tnwA "yt" "~TechVedas .learn"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCK1AYe1AVziqPRZyrzbwH2g "yt" "~Andrei Litvin"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCgKePkWtPuF36bJy0n2cEMQ "yt" "~Jadi"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeRXQ_B5WZD3yjPly45myvg "yt" "James Sharman"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC56l7uZA209tlPTVOJiJ8Tw "yt" "Low Byte Productions"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNiHgn5S9XowudbMqpR-ScQ "yt" "local"
 " |__ Embedded "
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7QA0wx1m_aLyctDusU4X7g "yt" "~Phil Koopman"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC4KXPjmKwPutGjwFZsEXB5g "yt" "~Jeremy Blum"

@@ -1,45 +1,45 @@
-vim.g.mehdi_colorscheme = "gruvbox-material"
+vim.g.mehdi_colorscheme = "monochrome"
 
-require('rose-pine').setup({
+--[[ require('rose-pine').setup({
     disable_background = true
-})
+}) ]]
 
-require('tokyonight').setup({
-    style = "night",
-    transparent = true,
-    terminal_colors = true,
-    dim_inactive = true,
-    on_highlights = function(hl, c)
-        -- local prompt = "2d3149"
-        hl.TelescopeNormal = {
-            bg = c.bg_dark,
-            fg = c.fg_dark,
-        }
-        hl.TelescopeBorder = {
-            bg = c.bg_dark,
-            fg = c.bg_dark,
-        }
-        hl.TelescopePromptNormal = {
-            bg = bg_none,
-        }
-        -- hl.TelescopePromptBorder = {
-        --     bg = prompt,
-        --     fg = prompt,
-        -- }
-        -- hl.TelescopePromptTitle = {
-        --     bg = prompt,
-        --     fg = prompt,
-        -- }
-        hl.TelescopePreviewTitle = {
-            bg = c.bg_dark,
-            fg = c.bg_dark,
-        }
-        hl.TelescopeResultsTitle = {
-            bg = c.bg_dark,
-            fg = c.bg_dark,
-        }
-    end,
-})
+-- require('tokyonight').setup({
+--     style = "night",
+--     transparent = true,
+--     terminal_colors = true,
+--     dim_inactive = true,
+--     on_highlights = function(hl, c)
+--         -- local prompt = "2d3149"
+--         hl.TelescopeNormal = {
+--             bg = c.bg_dark,
+--             fg = c.fg_dark,
+--         }
+--         hl.TelescopeBorder = {
+--             bg = c.bg_dark,
+--             fg = c.bg_dark,
+--         }
+--         hl.TelescopePromptNormal = {
+--             bg = bg_none,
+--         }
+--         -- hl.TelescopePromptBorder = {
+--         --     bg = prompt,
+--         --     fg = prompt,
+--         -- }
+--         -- hl.TelescopePromptTitle = {
+--         --     bg = prompt,
+--         --     fg = prompt,
+--         -- }
+--         hl.TelescopePreviewTitle = {
+--             bg = c.bg_dark,
+--             fg = c.bg_dark,
+--         }
+--         hl.TelescopeResultsTitle = {
+--             bg = c.bg_dark,
+--             fg = c.bg_dark,
+--         }
+--     end,
+-- })
 function ColorMyPencils()
     vim.g.gruvbox_contrast_dark = 'hard'
     vim.g.tokyonight_transparent_sidebar = true
@@ -85,6 +85,14 @@ function ColorMyPencils()
         bg = "none"
     })
 
+    hl("Pmenu", {
+        bg = "none"
+    })
+
+    hl("FloatBorder", {
+        bg = "#a0a0a0",
+        fg = "#ffffff"
+    })
 end
 
 ColorMyPencils()

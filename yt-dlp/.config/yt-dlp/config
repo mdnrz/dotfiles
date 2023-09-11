@@ -1,3 +1,3 @@
 --proxy="socks5://127.0.0.1:9050"
---path=$HOME/dl/ytdl/videos/
+--path=$HOME/extra/vids/
 --output="%(epoch-3600>%d-%m)s/%(title)s.%(ext)s"

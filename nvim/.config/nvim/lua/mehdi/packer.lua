@@ -8,23 +8,10 @@ return require('packer').startup(
 
 
         -- colorschemes
-        use 'folke/tokyonight.nvim'
-        use 'sainnhe/gruvbox-material'
-        use { "ellisonleao/gruvbox.nvim" }
-        use { "catppuccin/nvim", as = "catppuccin" }
-        use { 'tjdevries/colorbuddy.vim' }
-        use { 'avi-2-avi/catbuddy.nvim' }
         use { 'sainnhe/gruvbox-material' }
         use { 'rockerBOO/boo-colorscheme-nvim' }
         use { 'savq/melange-nvim' }
-
-        use({
-            'rose-pine/neovim',
-            as = 'rose-pine',
-            config = function()
-                vim.cmd('colorscheme rose-pine')
-            end
-        })
+        use { 'fxn/vim-monochrome' }
 
 
         -- telescope
@@ -67,11 +54,11 @@ return require('packer').startup(
         use { 'rcarriga/nvim-dap-ui' }
         use { 'ravenxrz/DAPInstall.nvim' }
 
-        -- treesitter
-        use("nvim-treesitter/nvim-treesitter", {
-            run = ":TSUpdate"
-        })
-        use { "nvim-treesitter/nvim-treesitter-context" }
+        -- -- treesitter
+        -- use("nvim-treesitter/nvim-treesitter", {
+        --     run = ":TSUpdate"
+        -- })
+        -- use { "nvim-treesitter/nvim-treesitter-context" }
 
         -- undotree
         use { 'mbbill/undotree' }

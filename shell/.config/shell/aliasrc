@@ -61,3 +61,4 @@ alias \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
 
 alias dfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/.config"
+alias yv="proxychains -q youtube-viewer"

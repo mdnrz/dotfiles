@@ -51,14 +51,8 @@ return require('packer').startup(
 
         -- dap
         use { 'mfussenegger/nvim-dap' }
-        use { 'rcarriga/nvim-dap-ui' }
+        use { 'rcarriga/nvim-dap-ui', requires = {'mfussenegger/nvim-dap'} }
         use { 'ravenxrz/DAPInstall.nvim' }
-
-        -- -- treesitter
-        -- use("nvim-treesitter/nvim-treesitter", {
-        --     run = ":TSUpdate"
-        -- })
-        -- use { "nvim-treesitter/nvim-treesitter-context" }
 
         -- undotree
         use { 'mbbill/undotree' }
@@ -82,20 +76,16 @@ return require('packer').startup(
 
         -- git stuff
         use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
-        use { 'kdheepak/lazygit.nvim' }
         use { 'tpope/vim-fugitive' }
         use { 'tpope/vim-unimpaired' }
 
         -- harpoon
         use { "ThePrimeagen/harpoon" }
 
-        -- reach
-        use { "toppair/reach.nvim" }
-
-        -- gitsigns
-        use { 'lewis6991/gitsigns.nvim' }
-
         -- tmux-vim-navigator
         use { 'christoomey/vim-tmux-navigator' }
+
+        -- nodev
+        use { 'folke/neodev.nvim', opts = {} }
 
     end)

@@ -2,7 +2,7 @@
 
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
-PS1="%B%{$fg[green]%}[%{$fg[white]%}%n%{$fg[magneta]%}@%{$fg[white]%}%M %{$fg[magenta]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[green]%}[%{$fg[white]%}%n%{$fg[magneta]%}@%{$fg[white]%}%M %{$fg[white]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments

@@ -193,7 +193,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_bracketright,	spawn,		{.v = (const char*[]){ "mpc", "seek", "+10", NULL } } },
 	{ MODKEY|ShiftMask,		XK_bracketright,	spawn,		{.v = (const char*[]){ "mpc", "seek", "+60", NULL } } },
 	{ MODKEY,			XK_backslash,		view,		{0} },
-	/* { MODKEY|ShiftMask,		XK_backslash,		spawn,		SHCMD("") }, */
+    { MODKEY|ShiftMask,		XK_backslash,		spawn,		{.v = (const char*[]){ "passotpmenu", NULL } } },
 
 	{ MODKEY,			XK_a,		togglegaps,	{0} },
 	{ MODKEY|ShiftMask,		XK_a,		defaultgaps,	{0} },

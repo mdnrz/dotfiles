@@ -1,4 +1,4 @@
-vim.g.mehdi_colorscheme = "monochrome"
+vim.g.mehdi_colorscheme = "gruber-darker"
 
 --[[ require('rose-pine').setup({
     disable_background = true
@@ -86,11 +86,11 @@ function ColorMyPencils()
     })
 
     hl("Pmenu", {
-        bg = "none"
+        bg = "#415353"
     })
 
     hl("FloatBorder", {
-        bg = "#a0a0a0",
+        bg = "none",
         fg = "#ffffff"
     })
 end

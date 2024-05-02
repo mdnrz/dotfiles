@@ -12,11 +12,16 @@ return require('packer').startup(
         use { 'rockerBOO/boo-colorscheme-nvim' }
         use { 'savq/melange-nvim' }
         use { 'fxn/vim-monochrome' }
+        use { 'blazkowolf/gruber-darker.nvim' }
+        use { 'amedoeyes/eyes.nvim' }
+        use { 'phha/zenburn.nvim' }
+
+
 
 
         -- telescope
         use {
-            'nvim-telescope/telescope.nvim', tag = '0.1.0',
+            'nvim-telescope/telescope.nvim', tag = '0.1.4',
             requires = { { 'nvim-lua/plenary.nvim' } }
         }
         use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
@@ -49,11 +54,6 @@ return require('packer').startup(
         -- comment
         use { 'numToStr/Comment.nvim' }
 
-        -- dap
-        use { 'mfussenegger/nvim-dap' }
-        use { 'rcarriga/nvim-dap-ui', requires = {'mfussenegger/nvim-dap'} }
-        use { 'ravenxrz/DAPInstall.nvim' }
-
         -- undotree
         use { 'mbbill/undotree' }
 
@@ -71,9 +71,6 @@ return require('packer').startup(
             require("toggleterm").setup()
         end }
 
-        -- goyo
-        use { 'junegunn/goyo.vim' }
-
         -- git stuff
         use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
         use { 'tpope/vim-fugitive' }
@@ -82,10 +79,11 @@ return require('packer').startup(
         -- harpoon
         use { "ThePrimeagen/harpoon" }
 
-        -- tmux-vim-navigator
-        use { 'christoomey/vim-tmux-navigator' }
-
         -- nodev
         use { 'folke/neodev.nvim', opts = {} }
+
+        -- git-worktree
+        use { 'ThePrimeagen/git-worktree.nvim' }
+
 
     end)

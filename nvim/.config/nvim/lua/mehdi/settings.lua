@@ -44,9 +44,14 @@ set.cmdheight = 1
 set.updatetime = 50
 set.signcolumn = "yes"
 
+-- netrw 
+vim.g.netrw_bufsettings="noma nomod nu nobl nowrap ro nornu"
+vim.g.netrw_banner=0
+vim.g.netrw_liststyle=1
+vim.g.netrw_sort_by="exten"
 
 -- columns to highlight
-set.colorcolumn = '100'
+-- set.colorcolumn = '100'
 
 -- vimwiki markdown syntax
 vim.g.vimwiki_list = {

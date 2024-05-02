@@ -7,9 +7,9 @@ lsp.setup()
 
 
 lsp.ensure_installed({
-    'clangd',
+    -- 'clangd',
     'lua_ls',
-    'rust_analyzer',
+    -- 'rust_analyzer',
 })
 
 

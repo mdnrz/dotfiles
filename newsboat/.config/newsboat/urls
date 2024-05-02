@@ -1,6 +1,3 @@
-" ### NEWS ### "
-https://feeds.feedburner.com/TheHackersNews
-
 " ### BLOG ### "
 https://bugswriter.com/blog/atom.xml "~bugswriter"
 https://landchad.net/rss.xml
@@ -11,9 +8,8 @@ https://www.embedded.com/feed/
 https://interrupt.memfault.com/feed.xml
 
 " ### STACKs ### "
-https://stackoverflow.com/feeds/tag?tagnames=stm32+or+st+or+microcontroller&sort=newest
-https://electronics.stackexchange.com/feeds/tag?tagnames=stm32+or+st+or+microcontroller+or+stm8&sort=newest
-
+https://stackoverflow.com/feeds/tag/stm32+or+microcontroller+or+embedded+or+c+or+linker-scripts+or+arm
+https://stackexchange.com/feeds/tagsets/449784/my-filter?sort=active
 " ### YOUTUBE ### "
 " |__ CS "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA "yt" "~TJ DeVries (YouTube)"
@@ -23,10 +19,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCwd5VFu4KoJNjkWJZMFJGHQ "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w "yt" "~LiveOverflow"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw "yt" "~stacksmashing"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "yt" "~Computerphile"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCb8bmN_7d3p-Xt5GqYT2KnA "yt" "~Barry Brown"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCuWLGQB4WRBKvW1C26zA2og "yt" "~Daedalus Community"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvn4o822zawXQR5vl32tnwA "yt" "~TechVedas .learn"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCK1AYe1AVziqPRZyrzbwH2g "yt" "~Andrei Litvin"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCgKePkWtPuF36bJy0n2cEMQ "yt" "~Jadi"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCeRXQ_B5WZD3yjPly45myvg "yt" "James Sharman"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC56l7uZA209tlPTVOJiJ8Tw "yt" "Low Byte Productions"
@@ -40,7 +33,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCY0sQ9hpSR6yZobt1qOv6DA "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCjPRuknkFjqM6UxxTbCQJ5Q "yt" "~Web learning"
 " |__ Linux "
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "yt" "~Luke Smith"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCf93fPKwotph47H3_KDcRyg "yt" "~Kris Occhipinti"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAMu6Dso0ENoNm3sKpQsy0g "yt" "~Nir Lichtman"
+
 https://www.youtube.com/feeds/videos.xml?channel_id=UCX_WM2O-X96URC5n66G-hvw "yt" "~EF - Linux Made Simple"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCngn7SVujlvskHRvRKc1cTw "yt" "~BugsWriter"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "yt" "~MentalOutlaw"
@@ -56,7 +50,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCU9SoQxJewrWb_3GxeteQPA "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UClKevSwDIU8NTyF2DAK0G0Q "yt" "~CircuitBread"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCosnWgi3eorc1klEQ8pIgJQ "yt" "~Afrotechmods"
 " |__ Music "
-https://www.youtube.com/feeds/videos.xml?channel_id=UCnkp4xDOwqqJD7sSM3xdUiQ "yt" "~Adam Neely"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsqK63mE3ijJQiPQlFIPMtw "yt" "~Anatomy of a Track"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw "yt" "~theneedledrop"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRYhCg0DHloE9gn-PAiAYNg "yt" "~deep cuts"
@@ -65,6 +58,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCbsfyGlrjrKQC0gbzK0-EiA "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCP5tjEmvPItGyLhmjdwP7Ww "yt" "~RealLifeLore"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q "yt" "~LEMMiNO"
 " |__ Science & Engineering "
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA "yt" "Veritasium"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "yt" "-3Blue1Brown"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCR1IuLEqb6UEA_zQ81kwXfg "yt" "~Real Engineering"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCX6b17PVsYBQ0ip5gyeme-Q "yt" "~CrashCourse"

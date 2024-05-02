@@ -77,14 +77,6 @@ map("n", "<leader>h2", "<cmd>lua require('harpoon.ui').nav_file(2)<cr>", opts)
 map("n", "<leader>h3", "<cmd>lua require('harpoon.ui').nav_file(3)<cr>", opts)
 map("n", "<leader>h4", "<cmd>lua require('harpoon.ui').nav_file(4)<cr>", opts)
 
--- visible line moving 
-map("n", "<C-j>", "<cmd>:m .+1<CR>==", opts)
-map("n", "<C-k>", "<cmd>:m .-2<CR>==", opts)
-map("i", "<C-j>", "<ESC>:m .+1<CR>==gi", opts)
-map("i", "<C-k>", "<ESC>:m .-2<CR>==gi", opts)
-map("v", "<C-j>", ":m '>+1<CR>gv=gv", opts)
-map("v", "<C-k>", ":m '<-2<CR>gv=gv", opts)
-
 -- netrw
 map("n", "<leader>fm", "<cmd>Ex<cr>", opts)
 
@@ -107,3 +99,10 @@ map("n", "<leader>cp", ":wa<cr><cmd>! compiler %<cr><cr>", opts)
 -- tmux sessionizer
 map("n", "<C-f>", ":sil !tmux neww sessionizer<cr>", opts)
 map("n", "<C-s>", ":sil !tmux split-window -h -l 85 bash -c cht.sh<cr>", opts)
+
+-- git worktree
+map("n", "<leader>tl", "<cmd>lua require('telescope').extensions.git_worktree.git_worktrees()<cr>", opts)
+map("n", "<leader>ta", "<cmd>lua require('telescope').extensions.git_worktree.create_git_worktree()<cr>", opts)
+
+-- run shell command
+map("n", "<leader>s", ":!", opts)

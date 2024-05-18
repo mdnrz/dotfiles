@@ -85,5 +85,14 @@ return require('packer').startup(
         -- git-worktree
         use { 'ThePrimeagen/git-worktree.nvim' }
 
+        -- Oil 
+            use({
+                "stevearc/oil.nvim",
+                config = function()
+                    require("oil").setup()
+                end,
+            })
+        -- use { 'stevearc/oil.nvim' }
+
 
     end)

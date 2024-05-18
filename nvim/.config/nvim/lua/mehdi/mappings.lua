@@ -78,7 +78,8 @@ map("n", "<leader>h3", "<cmd>lua require('harpoon.ui').nav_file(3)<cr>", opts)
 map("n", "<leader>h4", "<cmd>lua require('harpoon.ui').nav_file(4)<cr>", opts)
 
 -- netrw
-map("n", "<leader>fm", "<cmd>Ex<cr>", opts)
+-- map("n", "<leader>fm", "<cmd><cr>", opts)
+map("n", "-", "<cmd>Oil<cr>", opts)
 
 -- building mcu projects
 map("n", "<leader>ma", "<cmd>wa<cr><cmd>! make all -j4<cr>", opts)

@@ -31,6 +31,8 @@ return require('packer').startup(function(use)
 
     use { 'tpope/vim-fugitive' }
 
+    use { 'vimwiki/vimwiki' }
+
 
 end)
 

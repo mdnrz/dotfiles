@@ -56,4 +56,6 @@ nvim/.config/nvim/plugin/packer_compiled.lua
 suckless/.local/src/st/st
 suckless/.local/src/dwm/dwm
 suckless/.local/src/dmenu/dmenu
+suckless/.local/src/dmenu/stest
 tmux/.config/tmux/plugins
+nvim/.config/nvim/autoload/*

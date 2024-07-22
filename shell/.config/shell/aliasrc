@@ -63,4 +63,6 @@ alias \
 alias dfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/.config"
 alias yv="proxychains -q youtube-viewer --resolution=480p"
 alias du="du -h -d 1 | sort -hr"
-alias ll="ls -l"
+alias ll="ls -larth"
+alias wvms="mpv --rtsp-transport=tcp 'rtsp://mehdi:mehdi1899@185.110.252.149:82/cam/realmonitor?channel=1&subtype=1'"
+alias less="less --mouse"

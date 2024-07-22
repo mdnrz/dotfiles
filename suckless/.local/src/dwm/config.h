@@ -37,6 +37,7 @@ const char *spcmd1[] = {TERMINAL, "-n", "spterm", "-g", "120x34", NULL };
 const char *spcmd2[] = {TERMINAL, "-n", "spcalc", "-f", "monospace:size=16", "-g", "50x20", "-e", "bc", "-lq", NULL };
 const char *spcmd3[] = {TERMINAL, "-n", "spnote", "-g", "120x34", "-e", "nvim", "-c VimwikiMakeDiaryNote", NULL };
 const char *spcmd4[] = {TERMINAL, "-n", "sptodo", "-g", "120x34", "-e", "nvim", "/home/mehdi/todo.md", NULL };
+const char *spcmd5[] = {TERMINAL, "-n", "spdic", "-g", "80x34", "-e", "dic", NULL };
 
 static Sp scratchpads[] = {
 	/* name          cmd  */
@@ -44,6 +45,7 @@ static Sp scratchpads[] = {
 	{"spcalc",      spcmd2},
     {"spnote",      spcmd3},
     {"sptodo",      spcmd4},
+    {"spdic",       spcmd5},
 };
 
 /* tagging */
@@ -64,6 +66,7 @@ static const Rule rules[] = {
 	{ TERMCLASS,      "spcalc",    NULL,       	    SPTAG(1),     1,           1,         0,        -1 },
 	{ TERMCLASS,      "spnote",    NULL,       	    SPTAG(2),     1,           1,         0,        -1 },
 	{ TERMCLASS,      "sptodo",    NULL,       	    SPTAG(3),     1,           1,         0,        -1 },
+	{ TERMCLASS,      "spdic",    NULL,       	    SPTAG(4),     1,           1,         0,        -1 },
 };
 
 /* layout(s) */
@@ -193,8 +196,10 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_i,		setlayout,	{.v = &layouts[7]} }, /* centeredfloatingmaster */
 	{ MODKEY,			XK_o,		incnmaster,     {.i = +1 } },
 	{ MODKEY|ShiftMask,		XK_o,		incnmaster,     {.i = -1 } },
-	{ MODKEY,			XK_p,			spawn,		{.v = (const char*[]){ "mpc", "toggle", NULL } } },
-	{ MODKEY|ShiftMask,		XK_p,			spawn,		SHCMD("mpc pause; pauseallmpv") },
+	/*{ MODKEY,			XK_p,			spawn,		{.v = (const char*[]){ "mpc", "toggle", NULL } } },*/
+	{ MODKEY,			XK_p,			spawn,		{.v = (const char*[]){ "passmenu", NULL } } },
+	{ MODKEY|ShiftMask,		XK_p,			spawn,		{.v = (const char*[]){ "mpc", "toggle", NULL } } },
+	/*{ MODKEY|ShiftMask,		XK_p,			spawn,		SHCMD("mpc pause; pauseallmpv") },*/
 	{ MODKEY,			XK_bracketleft,		spawn,		{.v = (const char*[]){ "mpc", "seek", "-10", NULL } } },
 	{ MODKEY|ShiftMask,		XK_bracketleft,		spawn,		{.v = (const char*[]){ "mpc", "seek", "-60", NULL } } },
 	{ MODKEY,			XK_bracketright,	spawn,		{.v = (const char*[]){ "mpc", "seek", "+10", NULL } } },
@@ -207,7 +212,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_s,		togglesticky,	{0} },
 	/* { MODKEY|ShiftMask,		XK_s,		spawn,		SHCMD("") }, */
 	{ MODKEY,			XK_d,		spawn,          {.v = (const char*[]){ "dmenu_run", NULL } } },
-	{ MODKEY|ShiftMask,		XK_d,		spawn,		{.v = (const char*[]){ "passmenu", NULL } } },
+	/*{ MODKEY|ShiftMask,		XK_d,		spawn,		{.v = (const char*[]){ "passmenu", NULL } } },*/
 	{ MODKEY,			XK_f,		togglefullscr,	{0} },
 	{ MODKEY|ShiftMask,		XK_f,		setlayout,	{.v = &layouts[8]} },
 	{ MODKEY,			XK_g,		shiftview,	{ .i = -1 } },
@@ -324,6 +329,7 @@ static const Key keys[] = {
 
 
    	{ MODKEY,		XK_c,		togglescratch,		{.ui = 3} },
+   	{ MODKEY|ShiftMask,		XK_d,		togglescratch,		{.ui = 4} },
 
 
 };

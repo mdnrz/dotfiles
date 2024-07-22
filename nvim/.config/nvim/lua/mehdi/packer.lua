@@ -23,7 +23,7 @@ return require('packer').startup(function(use)
 
     use { 'nvim-tree/nvim-web-devicons' }
 
-    use {'kdheepak/monochrome.nvim'}
+    use { 'fxn/vim-monochrome' }
 
     use { 'sainnhe/gruvbox-material' }
     use { 'slugbyte/lackluster.nvim' }

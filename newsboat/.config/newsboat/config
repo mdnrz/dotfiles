@@ -4,7 +4,7 @@ external-url-viewer "urlscan -dc -r 'linkhandler {}'"
 
 use-proxy yes
 proxy-type socks5h
-proxy localhost:9050
+proxy localhost:9911
 
 auto-reload yes
 

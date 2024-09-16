@@ -1,18 +1,11 @@
 " ### BLOG ### "
-https://bugswriter.com/blog/atom.xml "~bugswriter"
 https://landchad.net/rss.xml
-https://lukesmith.xyz/rss.xml
-https://andrehessling.de/feed/
-https://blog.thechases.com/rss.xml
 https://www.embedded.com/feed/
 https://interrupt.memfault.com/feed.xml
 
-" ### STACKs ### "
-https://stackoverflow.com/feeds/tag/stm32+or+microcontroller+or+embedded+or+c+or+linker-scripts+or+arm
-https://stackexchange.com/feeds/tagsets/449784/my-filter?sort=active
 " ### YOUTUBE ### "
 " |__ CS "
-https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA "yt" "~TJ DeVries (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7UukP_hxrOsrwHrcHxOxxg "yt" "~Kay Lack"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "yt" "~Low Level Learning"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg "yt" "~Tsoding Daily"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCwd5VFu4KoJNjkWJZMFJGHQ "yt" "~Jacob Sorber"
@@ -25,30 +18,20 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCeRXQ_B5WZD3yjPly45myvg "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UC56l7uZA209tlPTVOJiJ8Tw "yt" "Low Byte Productions"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNiHgn5S9XowudbMqpR-ScQ "yt" "local"
 " |__ Embedded "
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7QA0wx1m_aLyctDusU4X7g "yt" "~Phil Koopman"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4KXPjmKwPutGjwFZsEXB5g "yt" "~Jeremy Blum"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCMGXFEew8I6gzjg3tWen4Gw "yt" "~Quantum Leaps, LLC"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVryWqJ4cSlbTSETBHpBUWw "yt" "~Phil’s Lab"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCY0sQ9hpSR6yZobt1qOv6DA "yt" "~Embedded Systems (book tutorials)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCjPRuknkFjqM6UxxTbCQJ5Q "yt" "~Web learning"
 " |__ Linux "
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "yt" "~Luke Smith"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAMu6Dso0ENoNm3sKpQsy0g "yt" "~Nir Lichtman"
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCX_WM2O-X96URC5n66G-hvw "yt" "~EF - Linux Made Simple"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCngn7SVujlvskHRvRKc1cTw "yt" "~BugsWriter"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "yt" "~MentalOutlaw"
 " |__ Crypto "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg "yt" "~Benjamin Cowen"
 " |__ Electronics "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCBkOVp1Cqz4MR0LYR8vKpZg "yt" "~ALL ABOUT ELECTRONICS"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0-OtVpF0wOKEqT2Z1HEtA "yt" "~ElectroBOOM"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJQkHVpk3A8bgDmPlJlOJOA "yt" "~Robert Feranec"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNd_fNspAczm8UoE2ay7K1Q "yt" "~ForceTronics"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "yt" "~Ben Eater"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCU9SoQxJewrWb_3GxeteQPA "yt" "~Mr Carlson's Lab"
 https://www.youtube.com/feeds/videos.xml?channel_id=UClKevSwDIU8NTyF2DAK0G0Q "yt" "~CircuitBread"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCosnWgi3eorc1klEQ8pIgJQ "yt" "~Afrotechmods"
 " |__ Music "
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsqK63mE3ijJQiPQlFIPMtw "yt" "~Anatomy of a Track"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw "yt" "~theneedledrop"
@@ -65,6 +48,4 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCX6b17PVsYBQ0ip5gyeme-Q "yt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCk0fGHsCEzGig-rSzkfCjMw "yt" "~The Engineering Mindset"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "yt" "~Numberphile"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "yt" "~Kurzgesagt – In a Nutshell"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUKKQwBQZczpYzETkZNxi-w "yt" "~RealPars"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw "yt" "~DIY Perks"
-

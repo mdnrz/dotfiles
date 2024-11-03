@@ -25,5 +25,6 @@ end
 
 -- Run :Recompile and focus on the "compilation" pane
 vim.cmd('command! RecompileAndFocus lua FocusWindowByName("compilation")')
-vim.keymap.set('n', '<leader>c', ':RecompileAndFocus<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>r', ':RecompileAndFocus<CR>', { noremap = true, silent = true })
 
+vim.keymap.set("n", "<leader>c", ":Compile<C-F>")

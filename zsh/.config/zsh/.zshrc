@@ -83,3 +83,4 @@ source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.
 
 bindkey -s '^f' 'sessionizer\n'
 bindkey -s '^s' 'tmux split-window -h -l 85 bash -c cht.sh\n'
+rem

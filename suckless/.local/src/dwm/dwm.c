@@ -917,7 +917,7 @@ drawbar(Monitor *m)
 		drw_text(drw, x, 0, w, bh, lrpad / 2, tags[i], urg & 1 << i);
         // if (occ & 1 << i)
         if (m == selmon && selmon->sel && selmon->sel->tags & 1 << i)
-            drw_rect(drw, x, bh - boxw*0.7, w, boxw*0.7, 1, urg & 1 << i);	
+            drw_rect(drw, x + 4*boxs, bh - boxw*0.7, w - 8*boxs, boxw*0.7, 1, urg & 1 << i);	
         x += w;
 	}
 	w = TEXTW(m->ltsymbol);

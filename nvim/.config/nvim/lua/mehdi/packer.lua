@@ -32,7 +32,7 @@ return require('packer').startup(function(use)
 
     use { 'vimwiki/vimwiki' }
 
-    use { 'ej-shafran/compile-mode.nvim',
+    use { 'ej-shafran/compile-mode.nvim', tag = 'v3.0.1',
     requires = { { 'nvim-lua/plenary.nvim' },
             { 'm00qek/baleia.nvim', tag = "v1.3.0" }},
     }

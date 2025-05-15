@@ -22,6 +22,8 @@ return require('packer').startup(function(use)
 
     use { 'nvim-tree/nvim-web-devicons' }
 
+    use { 'tjdevries/colorbuddy.nvim' }
+    use { 'tjdevries/gruvbuddy.nvim' }
     use { 'fxn/vim-monochrome' }
 
     use { 'sainnhe/gruvbox-material' }
@@ -29,12 +31,18 @@ return require('packer').startup(function(use)
     use { "polirritmico/monokai-nightasty.nvim" }
 
     use { 'tpope/vim-fugitive' }
+    use { 'tpope/vim-dadbod' }
 
     use { 'vimwiki/vimwiki' }
 
     use { 'ej-shafran/compile-mode.nvim', tag = 'v3.0.1',
     requires = { { 'nvim-lua/plenary.nvim' },
-            { 'm00qek/baleia.nvim', tag = "v1.3.0" }},
+            { 'm00qek/baleia.nvim' },
+        },
+    }
+
+    use { 'mfussenegger/nvim-dap',
+        requires = { { 'rcarriga/nvim-dap-ui' } }
     }
 
 end)

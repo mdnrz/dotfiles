@@ -28,3 +28,18 @@ vim.cmd('command! RecompileAndFocus lua FocusWindowByName("compilation")')
 vim.keymap.set('n', '<leader>r', ':RecompileAndFocus<CR>', { noremap = true, silent = true })
 
 vim.keymap.set("n", "<leader>c", ":Compile<C-F>")
+vim.keymap.set("n", "<C-F>", ":silent !tmux neww sessionizer<CR>")
+
+-- DAP
+vim.keymap.set("n", "<leader>b", "<cmd>lua require'dap'.toggle_breakpoint()<CR>")
+vim.keymap.set("n", "<space>gb", "<cmd>lua require'dap'.run_to_cursor()<CR>")
+-- Eval var under cursor
+vim.keymap.set("n", "<space>?", function()
+    require("dapui").eval(nil, { enter = true })
+end)
+vim.keymap.set("n", "<F1>", "<cmd>lua require'dap'.continue()<CR>")
+vim.keymap.set("n", "<F2>", "<cmd>lua require'dap'.step_into()<CR>")
+vim.keymap.set("n", "<F3>", "<cmd>lua require'dap'.step_over()<CR>")
+vim.keymap.set("n", "<F4>", "<cmd>lua require'dap'.step_out()<CR>")
+vim.keymap.set("n", "<F5>", "<cmd>lua require'dap'.step_back()<CR>")
+vim.keymap.set("n", "<F13>", "<cmd>lua require'dap'.restart()<CR>")

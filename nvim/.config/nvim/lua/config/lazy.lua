@@ -29,6 +29,7 @@ require("lazy").setup({
       "tjdevries/colorbuddy.nvim",
       "tjdevries/gruvbuddy.nvim",
       "fxn/vim-monochrome",
+      "vimwiki/vimwiki",
 -- import your plugins
 	{ import = "config.plugins" },
     },

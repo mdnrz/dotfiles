@@ -1,6 +1,7 @@
 return {
+  -- "ej-shafran/compile-mode.nvim",
   "mdnrz/compile-mode.nvim",
-  branch = "mdnrz",
+
   -- version = "^5.0.0",
   -- you can just use the latest version:
   -- branch = "latest",
@@ -18,14 +19,14 @@ return {
     vim.g.compile_mode = {
       -- to add ANSI escape code support, add:
       baleia_setup = true,
-      jump_to_previous_buffer = false,
+      focus_compilation_buffer = true,
 
       -- to make `:Compile` replace special characters (e.g. `%`) in
       -- the command (and behave more like `:!`), add:
       -- bang_expansion = true,
       error_regexp_table = {
         rust_error = {
-          regex = '^ *--> \\(.*[^:]\\):\\([0-9^:]\\+\\):\\([0-9]\\+\\)$',
+          regex = '^ *--> \\(.*[^:]\\):\\([0-9^:]\\+\\):\\([0-9^$]\\+\\)$',
           filename = 1,
           row = 2,
           col = 3

@@ -1,5 +1,5 @@
 
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "<leader>e", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 vim.keymap.set("i", "jk", "<Esc>", {})
 
 -- Focus on a window by its name
@@ -24,4 +24,17 @@ vim.keymap.set("n", "<leader>c", ":Compile<C-F>")
 vim.keymap.set("n", "<leader>r", ":Recompile<CR>")
 vim.keymap.set("n", "<C-F>", ":silent !tmux neww sessionizer<CR>")
 
+-- local function setup_man_keymaps()
+--   vim.api.nvim_buf_set_keymap(0, 'n', 'd', '<C-d>', { noremap = true })
+--   vim.api.nvim_buf_set_keymap(0, 'n', 'u', '<C-u>', { noremap = true })
+-- end
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "man",
+  callback = function()
+    local opts = { buffer = true, noremap = true, silent = true }
+    vim.keymap.set("n", "d", "<C-d>", opts)
+    vim.keymap.set("n", "u", "<C-u>", opts)
+  end,
+})
 

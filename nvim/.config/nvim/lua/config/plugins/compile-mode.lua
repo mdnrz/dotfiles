@@ -1,10 +1,9 @@
 return {
-  -- "ej-shafran/compile-mode.nvim",
-  "mdnrz/compile-mode.nvim",
+  "ej-shafran/compile-mode.nvim",
 
   -- version = "^5.0.0",
   -- you can just use the latest version:
-  -- branch = "latest",
+  branch = "latest",
   -- or the most up-to-date updates:
   -- branch = "nightly",
 

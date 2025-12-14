@@ -1,0 +1,7 @@
+item-limit 20
+## proxy "SOCKS5h://127.0.0.1:9911"
+proxy "127.0.0.1:2080"
+global-section-hide true
+menu-item-sorting time-publication-desc
+menu-item-entry-format " %u | %D | %o"
+open-in-browser-command $HOME/.local/bin/linkhandler "%l"

@@ -3,7 +3,7 @@
 /* Constants */
 #define TERMINAL "st"
 #define TERMCLASS "St"
-#define BROWSER "brave"
+#define BROWSER "chromium"
 
 /* appearance */
 static unsigned int borderpx  = 2;        /* border pixel of windows */
@@ -16,7 +16,7 @@ static int swallowfloating    = 0;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 0;        /* 0 means bottom bar */
-static char *fonts[]          = { "monospace:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
+static char *fonts[]          = { "monospace:pixelsize=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
 static char normbgcolor[]           = "#222e2e";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#eeeeee";
@@ -126,8 +126,8 @@ static const char *termcmd[]  = { TERMINAL, NULL };
 ResourcePref resources[] = {
 		{ "color0",		STRING,	&normbordercolor },
 		{ "color8",		STRING,	&selbordercolor },
-		{ "color0",		STRING,	&normbgcolor },
-		{ "color4",		STRING,	&normfgcolor },
+		{ "color4",		STRING,	&normbgcolor },
+		{ "color0",		STRING,	&normfgcolor },
 		{ "color0",		STRING,	&selfgcolor },
 		{ "color4",		STRING,	&selbgcolor },
 		{ "borderpx",		INTEGER, &borderpx },
